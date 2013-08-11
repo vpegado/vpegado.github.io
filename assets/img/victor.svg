@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1680px" height="2160px" viewBox="0 0 1680 2160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>Slice 1</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page 1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <path d="M639.833334,880.167014 L800,880.167023 L800,720 L560,480 L400,480 L320,561 L160,561 L0,720 L0,2160 L560,2160 L560,1680 L1120,2160 L1280,2000 L800,1520 L800,1040 L639.833334,880.167014 Z M639.833334,880.167014" id="Path 6" fill="#9BA657"></path>
+            <path d="M320,561 L320,720 L480,880 L480,2080 L560,2160 L800,2160 L800,2000 L880,2080 L960,2080 L960,2000 L1040,1920 L640,1520 L640,1040 L800,880 L720,800 L640,880 L320,561 Z M320,561" id="Path 6" fill="#5E632A"></path>
+            <path d="M1120,1840 L1280,1840 L1280,2160 L1040,2160 L960,2080 L960,2000 L1120,1840 Z M1120,1840" id="Path 7" stroke="#979797" fill="#A68C69"></path>
+            <path d="M160,880 L160,2000 C160,2000.00002 320,2160 320,2160 L0,2160 L0,1040 L160,880 Z M160,880" id="Path 10" stroke="#979797" fill="#5E632A"></path>
+            <path d="M1200,800 L1120,800 L1040,880 L960,880 L800,720 L720,800 L480,561 L640,400 L960,80 L1280,80 L1440,240 L1440,408.282135 L1440,561 L1280,720 L1280,880 L1200,800 Z M1200,800" id="Path 1" fill="#A68C69"></path>
+            <path d="M720.000002,320 L800.000037,400 L960,400 L1040,320 L1120,400 L1120,561 L1280,400 L1440,561 L1600,561 L1680,480 L1680,320 L1360,7.95807864e-13 L1040,7.95807864e-13 L720.000002,320 Z M720.000002,320" id="Path 2" stroke="#979797" fill="#594433"></path>
+            <path d="M1120,800 L1120,880 L1200,800 L1120,720 L960,720 L1040,800 L1120,800 Z M1120,800" id="Path 3" fill="#594433"></path>
+            <path d="M1120,2000 L1440,1680 L1600,1840 L1280,2160 L1120,2000 Z M1120,2000" id="Path 8" fill="#F4F4F4"></path>
+        </g>
+    </g>
+</svg>
