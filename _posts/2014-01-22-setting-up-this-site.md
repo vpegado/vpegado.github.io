@@ -2,7 +2,7 @@
 layout: post
 title:  "Setting up this site"
 date:   2014-01-22 18:36:00
-categories: jekyll update
+categories: posts
 ---
 
 For most of my projects I use [Git][git] as source control and store them on [GitHub][github].

@@ -2,3 +2,4 @@ name: Victor Pegado
 markdown: redcarpet
 pygments: true
 encoding: UTF-8
+permalink: pretty
