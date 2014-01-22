@@ -10,17 +10,35 @@ They offer a service called [Github Pages][github-pages] where you can host stat
 There you have a static page generator tool called [Jekyll][jekyll] out of the box witch takes care of the most boring parts and a [CDN][cdn] in front for better hosting performance.
 You can do this a number of ways and here here is one.
 
+## Get started
+
 1. [Get an account on GitHub][github-join].
-2. [Create a new repository][github-new] called `<username>.github.io`. Don't forget to replace `<username>` with your own GitHub username.
-3. Clone the repository to your desktop by running<br> `git clone git://github.com/<username>/<username>.github.io.git`.
-4. Install Jekyll by running `gem install jekyll`.
-5. Generate jekyll boilerplate by running `jekyll new <username>.github.io` and copy the contents of the folder to your project root.
-5. Edit `_config.yml` file to your own liking.
-7. Go to the root of your project and run `jekyll server` go to <http://localhost:4000> to preview your changes.
-8. Commit and Push the changes to GitHub and see the result at <http://username.github.io/>
 
+2. [Create a new repository][github-new] called `username.github.io`. Don't forget to replace `username` with your own GitHub username in all of the examples.
 
+4. Open up the terminal {% highlight bash %}
+$ gem install jekyll
+# Installs jekyll
+$ jekyll new username.github.io
+# Generates boilerplate
+$ cd username.github.io
+$ git init
+# Sets up the Git files
+$ git add -A
+$ git commit -m 'first commit'
+$ git remote add origin https://github.com/username/username.github.io.git
+# Pointing it at your GitHub repository
+$ git push origin master
+# Sends your changes to GitHub
+{% endhighlight %}
+5. Go to <http://username.github.io/> and take a look at the result.
 
+## Configuration
+Edit `_config.yml` file to your own liking.
+Check [Jekyll Configuration][jekyll-config] to see what is avalible.
+
+## Local preview
+Go to the root of your project and run `jekyll server` go to <http://localhost:4000> to preview your changes.
 
 [cdn]:            http://en.wikipedia.org/wiki/Content_delivery_network
 [git]:            http://git-scm.com
@@ -29,3 +47,4 @@ You can do this a number of ways and here here is one.
 [github-new]:     https://github.com/repositories/new
 [github-pages]:   http://pages.github.com/
 [jekyll]:         http://jekyllrb.com
+[jekyll-config]:  http://jekyllrb.com/docs/configuration/
