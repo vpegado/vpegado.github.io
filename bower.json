@@ -1,0 +1,15 @@
+{
+  "name": "vpegado.github.io",
+  "version": "1.0.0",
+  "homepage": "http://www.pegado.se",
+  "authors": [
+    "Victor Pegado <victor@pegado.se>"
+  ],
+  "description": "Victor Pegado's Website",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.0.3"
+  }
+}
