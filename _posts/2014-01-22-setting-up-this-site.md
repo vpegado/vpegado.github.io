@@ -2,7 +2,7 @@
 layout: post
 title:  "Setting up this site"
 date:   2014-01-22 18:36:00
-categories: posts
+tags: tutorial hosting jekyll
 ---
 
 For most of my projects I use [Git][git] as source control and store them on [GitHub][github].
@@ -38,7 +38,7 @@ Edit `_config.yml` file to your own liking.
 Check [Jekyll Configuration][jekyll-config] to see what is avalible.
 
 ## Local preview
-Go to the root of your project and run `jekyll server` go to <http://localhost:4000> to preview your changes.
+Go to the root of your project and run `jekyll server --watch` go to <http://localhost:4000> to preview your changes.
 
 [cdn]:            http://en.wikipedia.org/wiki/Content_delivery_network
 [git]:            http://git-scm.com
