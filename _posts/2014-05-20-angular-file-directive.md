@@ -9,7 +9,7 @@ A common component in web applications is the form `<input type="file">`.
 To connect this input any kind of logic or just render a preview of the selected files tends to be a hassle involving a `POST` to some server-side code.
 For some cases it would be a lot easier containing parts of this on the client-side.
 
-After implementing this for various angular projects a pretty useful [directive](github-repo) started to emerge.
+After implementing this for various angular projects a pretty useful [directive][github-repo] started to emerge.
 
 ## Usage
 
@@ -76,12 +76,12 @@ angular.module('myApp', ['file'])
         6. Apply new values to `$scope` when last file is done.
 
 ## Installation
-Install with [Bower](bower):
+Install with [Bower][bower]:
 {% highlight bash %}
 $ bower install angular-file-directive
 {% endhighlight %}
 
-Include from a [RawGit](rawgit)'s CDN:
+Include from a [RawGit][rawgit]'s CDN:
 {% highlight html %}
 <script src="//cdn.rawgit.com/vpegado/angular-file-directive/v1.1.0/file.js"></script>
 {% endhighlight %}
@@ -89,7 +89,9 @@ Include from a [RawGit](rawgit)'s CDN:
 Or [download](https://github.com/vpegado/angular-file-directive/archive/master.zip) manually.
 
 ## The code
-Please check it out on [GitHub](github-repo) and submit any [issues](github-issues) encountered.
+Please check it out on [GitHub][github-repo] and submit any [issues][github-issues] encountered.
+
+
 
 [bower]: http://bower.io/
 [rawgit]: https://rawgit.com/
