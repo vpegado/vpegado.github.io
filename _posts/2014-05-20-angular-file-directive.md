@@ -56,7 +56,7 @@ angular.module('myApp', ['file']);
   </li>
 </ul>
 <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.16/angular.min.js"></script>
-<script src="//cdn.rawgit.com/vpegado/angular-file-directive/v1.1.0/file.js"></script>
+<script src="//cdn.rawgit.com/vpegado/angular-file-directive/v1.2.1/file.js"></script>
 <script>
 angular.module('myApp', ['file'])
   .controller('MainCtrl', function ($scope) {
@@ -83,7 +83,7 @@ $ bower install angular-file-directive
 
 Include from a [RawGit][rawgit]'s CDN:
 {% highlight html %}
-<script src="//cdn.rawgit.com/vpegado/angular-file-directive/v1.1.0/file.js"></script>
+<script src="//cdn.rawgit.com/vpegado/angular-file-directive/v1.2.1/file.js"></script>
 {% endhighlight %}
 
 Or [download](https://github.com/vpegado/angular-file-directive/archive/master.zip) manually.
