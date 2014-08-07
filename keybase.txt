@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/vpegado
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.pegado.se
+  * I am vpegado (https://keybase.io/vpegado) on keybase.
+  * I have a public key with fingerprint AC71 7B16 46E0 7413 DEA1  B587 8815 8D3D 1EF1 2392
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "ac717b1646e07413dea1b58788158d3d1ef12392",
+            "host": "keybase.io",
+            "key_id": "88158d3d1ef12392",
+            "uid": "410ac21b314130ef4cd6a621a5498f00",
+            "username": "vpegado"
+        },
+        "service": {
+            "hostname": "www.pegado.se",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1407416887,
+    "expire_in": 157680000,
+    "prev": "be3f49f1fc309dc0c63f1382ee83b02fefab049f905695e876e66d556d73ff88",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.3.1
+Comment: https://keybase.io/crypto
+
+yMHjAnicbZFbSFRRFIZnykkUYipTCsryjEMDTXL2nOtMdMWCrCDG8CGC6Vz2Hk/p
+OeOZi5dxQNRA6CbaYGo0UJKJiT6oVFiJiUZGiA+imUIIUQ+FQ0JYGO1j9tZ+Wey1
+vv9fa7FGN280pZsbMm8cyk7amswTw8mwqXCxiosSoiZXEp4ocQWuBaSofqgHdEUN
+ER5CkDjAiYClWUhyNKBkKACR4TmeBwwvUzKACLgot4twEsVa0FBgG1EIwjxFwzn8
+8Skyzv6HD68VaEAKkguIFMDuJES0JLMC6wICQ7t5RJIGGIS6KpRCTEcC0C/IGhFz
+EjgZUSRojGx0XgfKy8vz/jJ5QYi1AV0LaZJWgkvFoVDAYyhDlYE1FIq+dROfqKgy
+3hsLIlAPKppKeAAmpZBiuALa2J3lec5JwIqAokOfYhAMx/IkfkYbGMGWIqQQ7UYA
+SRTpliVSYikEKN4FIU+JpAtBJIgkBtwkw7oZyHMsZFmZYViZoxDiecJYq0zVCA+P
+xxT82DKo+FUhFNYhERsZvphiMqebNlk2GJczpadt+XfPhYzU1W2rcekZc9LTmNE9
++fB2uGhyzm0eZ8aOWfqtW/tqYmi+jYp9Gqx9V/+yvcBRMtOVq2Src8l2qudA80BX
+xfGzZWNpvU+WdiVOte/p+HFw4em90sdHX3y7kODi3dVUR9FX6ygKLPp3XPVmfj8d
+/0Ut11Y4hux1dUNHhnqbVlputlqbWtp2siLpbYjuWzqj2LwO7s4jc19n5wmLNesy
+nZN//ku93XNNfD/VYctdFh+8nRooeDV/rv/N7N5mfdy5mpjNKZ0pstz6/bPweuPY
+CErdnfzohZ8HE3rV6+3TE/2F1Xen81lNjqfMEjX2S6P7D898yHKs3I+22nriA/bn
+fwBK/BKy
+=Tek8
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/vpegado
+
+==================================================================
