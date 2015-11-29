@@ -4,6 +4,9 @@
 nav[role=navigation],
 main {
   max-width: 720px;
+}
+
+main {
   margin: 20px auto;
 }
 
@@ -19,7 +22,7 @@ hr {
   border-style: solid;
   border-color: rgba(0,0,0,0.2);
   border-width: 1px 0 0;
-  margin: 20px;
+  margin: 10px 20px;
 }
 
 code,
@@ -64,41 +67,45 @@ nav {
   overflow: hidden;
   line-height: 40px;
 }
+
 nav a {
   display: block;
-  float: left;
   color: #000;
 }
 
-nav > * {
-  margin-left: 20px;
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px auto;
 }
-nav > *:nth-child(n+2) {
-  margin-right: 20px;
+nav a[rel=home] {
+  flex: 1;
+  min-width: 240px;
+  margin: 5px 20px;
+}
+nav ul {
+  flex: 1;
+  display: flex;
+  min-width: 240px;
+  padding: 0;
+  margin: 5px 15px;
 }
 
-nav ul {
-  float: right;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 0;
-}
 nav ul li {
+  flex: 1;
   display: block;
-  float: left;
-}
-nav ul li:nth-child(n+2) {
-  margin-left: 10px;
+  margin: 0 5px;
 }
 
 nav ul li a {
+  display: block;
   box-sizing: border-box;
   border: 1px solid rgba(0,0,0,.1);
   border-radius: 21px;
   font-size: 12px;
   text-transform: uppercase;
   font-weight: 700;
-
+  text-align: center;
 }
 nav ul li a:hover {
   color: #000;
@@ -112,11 +119,9 @@ nav ul li a.active:hover {
   background-color: rgba(0,0,0,.8);
 }
 
-nav ul li a,
 article {
   padding: 0 20px;
 }
-
 article > header {
   top: 0;
   line-height: 30px;
@@ -139,19 +144,17 @@ section[role=grid] {
   margin: -10px 0;
 }
 
-article[role=gridcell] {
-  flex: 1;
-  min-width: 180px;
-  margin: 10px;
-  background-color: #F7D900;
-  padding: 20px;
-}
-
-img[role=gridcell] {
+[role=gridcell] {
   flex: 1;
   width: 100%;
-  min-width: 180px;
+  min-width: 240px;
   margin: 10px;
+  box-sizing: border-box;
+}
+
+article[role=gridcell] {
+  background-color: #F7D900;
+  padding: 20px;
 }
 
 article[role=gridcell] a {
