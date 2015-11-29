@@ -1,0 +1,162 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro|Open+Sans:400,700);
+@import url(/css/syntax.css);
+
+nav[role=navigation],
+main {
+  max-width: 720px;
+  margin: 20px auto;
+}
+
+body {
+  font-family: 'Open Sans', serif;
+  font-size: 16px;
+  margin: 0;
+  background-color: #FFF;
+  color: #000;
+}
+
+hr {
+  border-style: solid;
+  border-color: rgba(0,0,0,0.2);
+  border-width: 1px 0 0;
+  margin: 20px;
+}
+
+code,
+pre {
+  font-family: 'Source Code Pro', monospace;
+}
+
+pre {
+  overflow-x: scroll;
+  padding: 10px;
+}
+
+p {
+  line-height: 2em;
+}
+
+h1,
+article header h2,
+nav a[rel=home] {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h1 a,
+h2 a {
+  text-transform: none;
+  color: #000;
+}
+
+a {
+  color: #4AD3B7;
+  text-decoration: none;
+  transition: color 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+a:hover,
+nav a[rel=home]:hover {
+  color: #3B9D89;
+}
+
+/* Navigation */
+nav {
+  overflow: hidden;
+  line-height: 40px;
+}
+nav a {
+  display: block;
+  float: left;
+  color: #000;
+}
+
+nav > * {
+  margin-left: 20px;
+}
+nav > *:nth-child(n+2) {
+  margin-right: 20px;
+}
+
+nav ul {
+  float: right;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+nav ul li {
+  display: block;
+  float: left;
+}
+nav ul li:nth-child(n+2) {
+  margin-left: 10px;
+}
+
+nav ul li a {
+  box-sizing: border-box;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 21px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+
+}
+nav ul li a:hover {
+  color: #000;
+  border-color: rgba(0,0,0,.2);
+}
+nav ul li a.active {
+  background-color: #000;
+  color: #FFF;
+}
+nav ul li a.active:hover {
+  background-color: rgba(0,0,0,.8);
+}
+
+nav ul li a,
+article {
+  padding: 0 20px;
+}
+
+article > header {
+  top: 0;
+  line-height: 30px;
+}
+
+article > header date {
+  margin-right: 10px;
+}
+
+header > h1,
+header > h2 {
+  margin: 0;
+}
+
+section[role=grid] {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 0 10px;
+  margin: -10px 0;
+}
+
+article[role=gridcell] {
+  flex: 1;
+  min-width: 180px;
+  margin: 10px;
+  background-color: #F7D900;
+  padding: 20px;
+}
+
+img[role=gridcell] {
+  flex: 1;
+  width: 100%;
+  min-width: 180px;
+  margin: 10px;
+}
+
+article[role=gridcell] a {
+  color: #fff;
+}
+article[role=gridcell] a:hover {
+  color: #000;
+}

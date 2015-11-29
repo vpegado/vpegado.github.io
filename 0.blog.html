@@ -1,19 +1,20 @@
 ---
-layout: post
+layout: page
 title: Blog
-description: Words pushed to the web
 permalink: '/'
 ---
-<p>I guess this is some kind of attempt of me stop feeling akward writing other things than just code on the web. Also there might be some insights helping other developers figure things out in the process</p>
-<h2>Posts</h2>
-<div class="list-group">
+<section>
   {% for post in site.posts %}
-  <a href="{{ post.url }}" class="list-group-item">
-    <date class="list-group-item-text text-muted pull-right" datetime="{{ post.date }}">{{ post.date | date_to_string }}</date>
-    <h4 class="list-group-item-heading">{{ post.title }}</h4>
-    {% if post.tags %}
-    <p class="list-group-item-text"><small>tags: {{ post.tags | array_to_sentence_string }}</small></p>
-    {% endif %}
-  </a>
+  <article>
+    <header>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <small>
+        <date datetime="{{ post.date }}">{{ post.date | date_to_string }}</date>
+        {% if post.tags %}{{ post.tags | array_to_sentence_string }}{% endif %}
+      </small>
+    </header>
+    {{ post.content }}
+  </article>
+  <hr>
   {% endfor %}
-</div>
+</section>

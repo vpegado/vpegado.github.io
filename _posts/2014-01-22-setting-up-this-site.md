@@ -5,16 +5,16 @@ date:   2014-01-22 18:36:00
 tags: tutorial hosting jekyll
 ---
 
-For most of my projects I use [Git][git] as source control and store them on [GitHub][github].
-They offer a service called [Github Pages][github-pages] where you can host static pages.
-There you have a static page generator tool called [Jekyll][jekyll] out of the box witch takes care of the most boring parts and a [CDN][cdn] in front for better hosting performance.
+For most of my projects I use [Git] as source control and store them on [GitHub].
+They offer a service called [Github Pages] where you can host static pages.
+There you have a static page generator tool called [Jekyll] out of the box witch takes care of the most boring parts and a [CDN] in front for better hosting performance.
 You can do this a number of ways and here here is one.
 
 ## Get started
 
-1. [Get an account on GitHub][github-join].
+1. [Get an account on GitHub].
 
-2. [Create a new repository][github-new] called `username.github.io`. Don't forget to replace `username` with your own GitHub username in all of the examples.
+2. [Create a new repository] called `username.github.io`. Don't forget to replace `username` with your own GitHub username in all of the examples.
 
 4. Open up the terminal {% highlight bash %}
 $ gem install jekyll
@@ -35,16 +35,29 @@ $ git push origin master
 
 ## Configuration
 Edit `_config.yml` file to your own liking.
-Check [Jekyll Configuration][jekyll-config] to see what is avalible.
+Check [Jekyll Configuration] to see what is avalible.
 
 ## Local preview
-Go to the root of your project and run `jekyll server --watch` go to <http://localhost:4000> to preview your changes.
+Go to the root of your project and run
+{% highlight bash %}
+$ jekyll server --watch
+Configuration file: /project/_config.yml
+            Source: /project
+       Destination: /project/_site
+      Generating...
+                    done.
+ Auto-regeneration: enabled for '/project'
+Configuration file: /project/_config.yml
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+{% endhighlight %}
+Go to <http://127.0.0.1:4000/> to preview your changes.
 
-[cdn]:            http://en.wikipedia.org/wiki/Content_delivery_network
-[git]:            http://git-scm.com
-[github]:         https://github.com
-[github-join]:    https://github.com/join
-[github-new]:     https://github.com/repositories/new
-[github-pages]:   http://pages.github.com/
-[jekyll]:         http://jekyllrb.com
-[jekyll-config]:  http://jekyllrb.com/docs/configuration/
+[CDN]:                      http://en.wikipedia.org/wiki/Content_delivery_network
+[Git]:                      http://git-scm.com
+[Github]:                   https://github.com
+[Get an account on GitHub]: https://github.com/join
+[Create a new repository]:  https://github.com/repositories/new
+[Github Pages]:             http://pages.github.com/
+[Jekyll]:                   http://jekyllrb.com
+[Jekyll Configuration]:     http://jekyllrb.com/docs/configuration/

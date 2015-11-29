@@ -1,17 +1,15 @@
 ---
 layout: default
 ---
-
-<div class="jumbotron text-center">
-  <h1>{% if page.description %}{{ page.description }}{% else %}{{ page.title }}{% endif %}</h1>
-  {% if page.date %}
-  <p><date datetime="{{ page.date }}">{{ page.date | date_to_string }}</date></p>
-  {% endif %}
-</div>
-<div class="container">
-  <div class="row">
-    <div class="col-md-6 col-md-offset-3">
-      {{ content }}
-    </div>
-  </div>
-</div>
+<section>
+  <article>
+    <header>
+      <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+      <small>
+        <date datetime="{{ page.date }}">{{ page.date | date_to_string }}</date>
+        {% if page.tags %}{{ page.tags | array_to_sentence_string }}{% endif %}
+      </small>
+    </header>
+    {{ content }}
+  </article>
+</section>

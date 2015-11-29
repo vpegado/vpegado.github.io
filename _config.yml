@@ -1,6 +1,6 @@
-name: Victor Pegado
+name: Pegado
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 encoding: UTF-8
 permalink: pretty
 timezone: Europe/Sweden
