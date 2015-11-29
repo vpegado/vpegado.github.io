@@ -172,6 +172,9 @@ article[role=gridcell] a:hover {
     width: 50%;
     float: left;
   }
+  [role=gridcell]:nth-child(odd) {
+    clear: both;
+  }
   nav ul {
     padding-left: 5px;
   }
