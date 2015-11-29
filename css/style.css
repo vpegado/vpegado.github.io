@@ -165,7 +165,7 @@ article[role=gridcell] a:hover {
   color: #000;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 540px) {
   nav a[rel=home],
   nav ul,
   [role=gridcell] {
