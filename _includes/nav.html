@@ -1,10 +1,10 @@
 <nav role="navigation">
   <a href="/" rel="home">{{ site.name }}</a>
-  <ul>{% for link in site.pages %}
+  <ul>{% for link in site.html_pages %}
     <li>
       <a href="{{ link.url }}" class="{% if page.url == link.url %}active{% endif %}">
         {{ link.title }}
       </a>
-    </li>{% endfor%}
+    </li>{% endfor %}
   </ul>
 </nav>

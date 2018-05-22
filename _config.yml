@@ -1,6 +1,8 @@
 name: Pegado
+title: Pegado
 markdown: redcarpet
 highlighter: pygments
 encoding: UTF-8
 permalink: pretty
 timezone: Europe/Sweden
+exclude: [bower_components]
